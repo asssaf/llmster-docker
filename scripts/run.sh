@@ -2,7 +2,7 @@
 
 set -eu
 
-: ${IMAGE:=asssaf/llmster}
+: ${IMAGE:=ghcr.io/asssaf/llmster}
 
 docker run --rm -it \
 	--net=host \
